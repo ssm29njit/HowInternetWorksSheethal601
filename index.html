@@ -1,275 +1,700 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>Bootstrap Theme The Band</title>
+    <!-- META INFO -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <style>
-        body {
-            font: 400 15px/1.8 Lato, sans-serif;
-            color: #777;
-        }
-        h3, h4 {
-            margin: 10px 0 30px 0;
-            letter-spacing: 10px;
-            font-size: 20px;
-            color: #111;
-        }
-        .container {
-            padding: 80px 120px;
-        }
-        .person {
-            border: 10px solid transparent;
-            margin-bottom: 25px;
-            width: 80%;
-            height: 80%;
-            opacity: 0.7;
-        }
-        .person:hover {
-            border-color: #f1f1f1;
-        }
-        .carousel-inner img {
-            -webkit-filter: grayscale(90%);
-            filter: grayscale(90%); /* make all photos black and white */
-            width: 100%; /* Set width to 100% */
-            margin: auto;
-        }
-        .carousel-caption h3 {
-            color: #fff !important;
-        }
-        @media (max-width: 600px) {
-            .carousel-caption {
-                display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-            }
-        }
-        .bg-1 {
-            background: #2d2d30;
-            color: #bdbdbd;
-        }
-        .bg-1 h3 {color: #fff;}
-        .bg-1 p {font-style: italic;}
-        .list-group-item:first-child {
-            border-top-right-radius: 0;
-            border-top-left-radius: 0;
-        }
-        .list-group-item:last-child {
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0;
-        }
-        .thumbnail {
-            padding: 0 0 15px 0;
-            border: none;
-            border-radius: 0;
-        }
-        .thumbnail p {
-            margin-top: 15px;
-            color: #555;
-        }
-        .btn {
-            padding: 10px 20px;
-            background-color: #333;
-            color: #f1f1f1;
-            border-radius: 0;
-            transition: .2s;
-        }
-        .btn:hover, .btn:focus {
-            border: 1px solid #333;
-            background-color: #fff;
-            color: #000;
-        }
-        .modal-header, h4, .close {
-            background-color: #333;
-            color: #fff !important;
-            text-align: center;
-            font-size: 30px;
-        }
-        .modal-header, .modal-body {
-            padding: 40px 50px;
-        }
-        .nav-tabs li a {
-            color: #777;
-        }
-        #googleMap {
-            width: 100%;
-            height: 400px;
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-        }
-        .navbar {
-            font-family: Montserrat, sans-serif;
-            margin-bottom: 0;
-            background-color: #2d2d30;
-            border: 0;
-            font-size: 11px !important;
-            letter-spacing: 4px;
-            opacity: 0.9;
-        }
-        .navbar li a, .navbar .navbar-brand {
-            color: #d5d5d5 !important;
-        }
-        .navbar-nav li a:hover {
-            color: #fff !important;
-        }
-        .navbar-nav li.active a {
-            color: #fff !important;
-            background-color: #29292c !important;
-        }
-        .navbar-default .navbar-toggle {
-            border-color: transparent;
-        }
-        .open .dropdown-toggle {
-            color: #fff;
-            background-color: #555 !important;
-        }
-        .dropdown-menu li a {
-            color: #000 !important;
-        }
-        .dropdown-menu li a:hover {
-            background-color: red !important;
-        }
-        footer {
-            background-color: #2d2d30;
-            color: #f5f5f5;
-            padding: 32px;
-        }
-        footer a {
-            color: #f5f5f5;
-        }
-        footer a:hover {
-            color: #777;
-            text-decoration: none;
-        }
-        .form-control {
-            border-radius: 0;
-        }
-        textarea {
-            resize: none;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- PAGE TITLE -->
+    <title>History Of Internet</title>
+    <!-- META VIEW PORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- FAVICONS -->
+    <link rel="icon" href="images/favicons/favicon.ico">
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+    <!-- WEB FONT-FAMILY -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+          rel="stylesheet">
+
+    <!-- VENDOR FONT ICONS CSS -->
+    <link rel="stylesheet" href="fonticons/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonticons/et-line/et-line-font.css">
+    <link rel="stylesheet" href="fonticons/material-webfont/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="fonticons/pixeden/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="fonticons/simplelineicons/css/simple-line-icons.css">
+
+    <!-- COMMON VENDOR CSS -->
+    <link rel="stylesheet" href="vendor/animate-css/animate.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/sweetalert/sweetalert2.min.css">
+    <link rel="stylesheet" href="vendor/jarallax/jarallax.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+
+
+    <!-- TEMPLATE COMMON CSS -->
+    <link rel="stylesheet" href="css/page-main.css">
+    <link rel="stylesheet" href="css/page-elements.css">
+    <link rel="stylesheet" href="css/page-helper.css">
+    <link rel="stylesheet" href="css/page-responsive.css">
+
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#myPage"></a>
+<body class="ckav-body tooltip-light">
+
+<!--
+************************************************************
+* PAGE LOADER
+*************************************************************
+-->
+<div id="loader">
+    <div class="load-three-bounce">
+        <div class="load-child bounce1"></div>
+        <div class="load-child bounce2"></div>
+        <div class="load-child bounce3"></div>
+    </div>
+</div>
+<!-- ************** END : PAGE LOADER **************  -->
+
+
+<div class="ckav-body">
+
+    <!--
+    ************************************************************
+    * HEADER
+    *************************************************************
+    -->
+    <header class="ckav-header">
+        <div class="container-fluid padding-0">
+
+            <div class="row align-items-center">
+
+                <!-- LOGO -->
+                <div class="col">
+                    <a href="./index.html" class="logo-wrapper margin-l-30 margin-t-30"
+                       data-ckav-smd="margin-t-10 margin-l-10 margin-b-10 width-px-60">
+                        <img src="images/logo.png" alt="page">
+                    </a>
+                </div>
+
+                <!-- SOCIAL LINKS -->
+                <div class="col flex-cr">
+
+                    <!-- MENU ICON -->
+                    <div class="menu-icon-wrp display-none" data-ckav-smd="display-flex margin-r-10">
+                        <div class="menu-icon">
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                    <!-- SOCIAL ICONS -->
+                    <div class="social-section margin-r-30 margin-t-30" data-ckav-smd="display-none">
+                        <div class="inner-wrapper">
+                            <a href="https://github.com/ssm29njit"
+                               class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                                    class="fab fa-github">S</i></a>
+                            <a href="https://github.com/JedidiahJohnNagarajan"
+                               class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                                    class="fab fa-github">J</i></a>
+                            <a href="https://www.linkedin.com/in/sheethal-mathew-4579a0a5/"
+                               class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                                    class="fab fa-linkedin">S</i></a>
+                            <a href="https://www.linkedin.com/in/jedidiahjohn/"
+                               class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                                    class="fab fa-linkedin">J</i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#myPage">HOME</a></li>
-                <li><a href="#band">ABOUT</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">TOPICS
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./icann.html">Domain names and ICANN</a></li>
-                        <li><a href="./ipPacketRouting.html">IP Addresses, Packets and Routing</a></li>
-                        <li><a href="./dns.html">DNS</a></li>
-                        <li><a href="./http.html">HTTP and HTTPS protocols</a></li>
-                        <li><a href="./w3cHTMLcss.html">W3C and HTML and CSS</a></li>
+    </header>
+    <!-- ************** END : HEADER **************  -->
 
-                    </ul>
+    <!--
+    ************************************************************
+    * INTRO SECTION
+    *************************************************************
+    -->
+    <div class="intro-section flex-cc">
+        <div class="container zindex-1 typo-light">
+            <div class="intro-text width-40" data-ckav-smd="width-100 align-center">
+                <h2 class="heading xlarge bold-600 margin-b-25" data-ckav-smd="large">History <br
+                        data-ckav-smd="display-none">Of Internet</h2>
+                <p class="heading-sub medium bold-400 margin-b-40" data-ckav-smd="mini margin-b-40">
+                    The internet is the wider network that allows computer networks around the world run by companies,
+                    governments,the universities and other organisations to talk to one another.
+                </p>
+                <a class="button button-3d radius-10 navigation-a" data-popup="#about" href="#">More Info</a>
+
+            </div>
+            <!-- SOCIAL ICONS -->
+            <div class="social-section display-none" data-ckav-smd="display-flex flex-cc margin-t-40">
+                <div class="inner-wrapper">
+                    <a href="https://github.com/ssm29njit"
+                       class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                            class="fab fa-github">S</i></a>
+                    <a href="https://github.com/JedidiahJohnNagarajan"
+                       class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                            class="fab fa-github">J</i></a>
+                    <a href="https://www.linkedin.com/in/sheethal-mathew-4579a0a5/"
+                       class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                            class="fab fa-linkedin">S</i></a>
+                    <a href="https://www.linkedin.com/in/jedidiahjohn/"
+                       class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                            class="fab fa-linkedin">J</i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!--=================================
+        = BACKGROUND HOLDER
+        ==================================-->
+        <div class="bg-holder zindex-0">
+
+            <!-- OVERLAY -->
+            <b data-bgholder="overlay" class="full-wh zindex-2"></b>
+
+            <!-- BACKGROUND IMAGE -->
+            <b data-bgholder="background-image" class="full-wh bg-cover bg-cc zindex-1"
+               data-bg-image="images/bg-01.jpg"></b>
+
+        </div>
+        <!-- ======= END : BACKGROUND HOLDER =======  -->
+
+    </div>
+    <!-- ************** END : INTRO SECTION **************  -->
+
+    <!--
+    ************************************************************
+    * NAVIGATIONs
+    *************************************************************
+    -->
+    <div class="navigation-section" data-linear-gradient="rgba(0,0,0, 0)|rgba(0,0,0, 0.8)">
+        <div class="container">
+            <ul class="navigation-ul row gt0 align-items-center">
+                <li class="navigation-li col">
+                    <a class="navigation-a" data-popup="#about" href="#">
+                        <span class="icon"><i class="icon-book-open"></i></span>
+                        <span class="text">About</span>
+                        <a href="./about.html" class="text-black-50">About</a>
+                        <span class="line"></span>
+                    </a>
                 </li>
-                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                <li class="navigation-li col">
+                    <a class="navigation-a" data-popup="#team" href="#">
+                        <span class="icon"><i class="icon-people"></i></span>
+                        <span class="text">Team</span>
+                        <span class="line"></span>
+                    </a>
+                </li>
+                <li class="navigation-li col">
+                    <a class="navigation-a" data-popup="#testimonials" href="#">
+                        <span class="icon"><i class="icon-speech"></i></span>
+                        <span class="text">Internet</span>
+                        <span class="line"></span>
+                    </a>
+                </li>
+                <li class="navigation-li col">
+                    <a class="navigation-a" data-popup="#contact" href="#">
+                        <span class="icon"><i class="icon-envelope-letter"></i></span>
+                        <span class="text">Contact</span>
+                        <span class="line"></span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
-</nav>
+    <!-- ************** END : NAVIGATION **************  -->
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
+    <!--
+    ************************************************************
+    * ABOUT SECTION
+    *************************************************************
+    -->
+    <div id="about" class="popup-section about-section flex-cc">
+        <div class="inner-wrapper" data-ckav-smd="align-center">
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="images/internet.jpeg" alt="Internet" width="1200" height="700">
-            <div class="carousel-caption">
-                <h3>Internet</h3>
-                <p>The Internet, a loosely-organized international collaboration of autonomous, interconnected networks,
-                    supports host-to-host communication through voluntary adherence to open protocols and procedures
-                    defined by Internet Standards.</p>
+            <!-- CLOSE BUTTON -->
+            <div class="popup-close button button-icon color-button-dark color-hov-button-dark solid">
+                <i class="pe-7s-close"></i>
             </div>
-        </div>
 
-        <div class="item">
-            <img src="images/wifi.jpg" alt="Wifi" width="1200" height="700">
-            <div class="carousel-caption">
-                <h3>LA</h3>
-                <p>•Client – uses web browser to request pages from an internet          server
-                    •LAN – Local Area Network connects computers close to one       another
-                    •WAN – Wide Area Network connects two or more LANS         together!</p>
+            <!-- POPUP HEADER -->
+            <div class="header-area typo-light">
+                <h2 class="heading-section medium bold-600 margin-b-0">About</h2>
             </div>
+
+            <!-- POPUP CONTENT -->
+            <div class="content-area">
+                <div class="row gt60 align-items-center">
+                    <div class="col-lg-6" data-ckav-smd="margin-b-40">
+                        <img class="radius-10" src="images/HOI-page.png" alt="about image">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="heading-content small bold-600">History Of Internet</h3>
+
+                        <p class="heading-content-sub bold-400 tiny margin-b-30">From 1958 till now</p>
+                        <p class="margin-b-30">The internet is the wider network that allows computer networks around
+                            the world run by companies,
+                            governments,the universities and other organisations to talk to one another.
+                        </p>
+                        <hr class="margin-tb-20">
+                        <a href="./about.html" class="button button-3d color-button-default radius-10 button-large solid">More Info</a>
+                        <!--                      <ul class="list-1 color-text-dark font-01" data-ckav-smd="align-left margin-b-30">
+                                                  <li class="margin-b-5"><i class="list-bullet margin-r-10 color-text-default fa fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                                  <li class="margin-b-5"><i class="list-bullet margin-r-10 color-text-default fa fa-check"></i> Ullamco laboris nisi ut aliquip.</li>
+                                                  <li class="margin-b-5"><i class="list-bullet margin-r-10 color-text-default fa fa-check"></i> Eiusmod tempor incididunt ut labore.</li>
+                                                  <li class="margin-b-5"><i class="list-bullet margin-r-10 color-text-default fa fa-check"></i> Consectetur adipisicing elit seddo.</li>
+                                                  <li class="margin-b-5"><i class="list-bullet margin-r-10 color-text-default fa fa-check"></i> Utenim ad minim veniam quis.</li>
+                                              </ul>-->
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+    <!-- ************** END : ABOUT SECTION **************  -->
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+    <!--
+    ************************************************************
+    * TEAM SECTION
+    *************************************************************
+    -->
+    <div id="team" class="popup-section team-section flex-cc align-items-center">
+        <div class="inner-wrapper" data-ckav-smd="align-center">
+
+            <!-- CLOSE BUTTON -->
+            <div class="popup-close button button-icon color-button-dark solid color-hov-button-dark">
+                <i class="pe-7s-close"></i>
+            </div>
+
+            <!-- POPUP HEADER -->
+            <div class="header-area typo-light">
+                <h2 class="heading-section medium bold-600 margin-b-0">Team</h2>
+            </div>
+
+            <!-- POPUP CONTENT -->
+            <div class="content-area">
+
+                <div class="align-center width-50 margin-auto margin-b-40" data-ckav-smd="width-100">
+                    <h3 class="heading-content small bold-600">Team</h3>
+                    <p class="heading-content-sub mini bold-400 margin-b-0 margin-auto" data-ckav-smd="width-100">This website
+                    is made by Jedidiah and Sheethal who were studying Masters in Information Systems</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-5" data-ckav-smd="margin-b-30">
+                        <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+
+                            <!-- OVERLAY -->
+                            <div class="overlay flex-bl radius-10 typo-light"
+                                 data-linear-gradient="rgba(31,34,41,0.5)|rgba(31,34,41,1)">
+                                <div class="info-text text-center">
+                                    <em class="fs12 color-text-white margin-b-5">Student</em>
+                                    <h3 class="heading-content mini bold-600 margin-0">Jedidiah John Nagarajan</h3>
+                                    <div class="social-links margin-t-20">
+                                        <a href="https://github.com/JedidiahJohnNagarajan"
+                                           class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                                                class="fab fa-github"></i></a>
+                                        <a href="https://www.linkedin.com/in/jedidiahjohn/"
+                                           class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- IMAGE -->
+                            <img class="radius-10" src="images/400x500-01.png" alt="portfolio image">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2" data-ckav-smd="margin-b-30">
+
+                    </div>
+
+                    <div class="col-lg-5" data-ckav-smd="margin-b-30">
+                        <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+
+                            <!-- OVERLAY -->
+                            <div class="overlay flex-bl radius-10 typo-light"
+                                 data-linear-gradient="rgba(31,34,41,0.5)|rgba(31,34,41,1)">
+                                <div class="info-text text-center">
+                                    <em class="fs12 color-text-white margin-b-5">Student</em>
+                                    <h3 class="heading-content mini bold-600 margin-0">Sheethal Mathew
+                                    </h3>
+                                    <div class="social-links margin-t-20">
+                                        <a href="https://github.com/ssm29njit"
+                                           class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                                                class="fab fa-github"></i></a>
+                                        <a href="https://www.linkedin.com/in/sheethal-mathew-4579a0a5/"
+                                           class="button button-icon radius-full margin-r-10 color-button-white border-glass"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- IMAGE -->
+                            <img class="radius-10" src="images/400x500-02.png" alt="portfolio image">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ************** END : TEAM SECTION **************  -->
+
+    <!--
+    ************************************************************
+    * TESTIMONIALS SECTION
+    *************************************************************
+    -->
+    <div id="testimonials" class="popup-section testimonials-section flex-cc">
+        <div class="inner-wrapper" data-ckav-smd="align-center">
+
+            <!-- CLOSE BUTTON -->
+            <div class="popup-close button button-icon color-button-dark solid color-hov-button-dark">
+                <i class="pe-7s-close"></i>
+            </div>
+
+            <!-- POPUP HEADER -->
+            <div class="header-area typo-light">
+                <h2 class="heading-section medium bold-600 margin-b-0">History Of Internet</h2>
+            </div>
+
+            <!-- POPUP CONTENT -->
+            <div class="content-area">
+
+                <div class="carousel-widget carouselnav-1 zoom-carousel large padding-b-0 width-90 margin-auto"
+                     data-ckav-smd="width-100 align-center"
+                     data-carousel-items="1"
+                     data-carousel-itemrange="0,1|420,1|600,2|768,3|992,3|1200,3"
+                     data-carousel-autoplay="false"
+                     data-carousel-margin="30"
+                     data-carousel-loop="false"
+                     data-carousel-nav="true"
+                     data-carousel-dots="true"
+                     data-carousel-center="true">
+                    <div class="owl-carousel">
+
+                        <!-- ITEM -->
+                        <div class="item">
+                            <div class="inneritem">
+                                <div class="testimonial-box testimonial-box-5 padding-30 radius-10 info-obj img-t center gap-30 large">
+                                    <div class="img border-white border-10"><img src="images/400x400.jpg"
+                                                                                 class="radius-full" alt="image"></div>
+                                    <div class="info">
+                                        <p class="heading-content tiny bold-600 margin-0">It all started in 1958 (Video 1 Page)</p>
+                                        <hr class="margin-tb-20">
+                                        <h3 class="heading-content-sub tiny margin-0">Beginning of Internet is a revolution which
+                                        made the network how it is now</h3>
+
+                                        <a href="./page1.html" class="button color-button-default radius-10 button-medium solid">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM -->
+                        <div class="item">
+                            <div class="inneritem">
+                                <div class="testimonial-box testimonial-box-5 padding-30 radius-10 info-obj img-t center gap-30 large">
+                                    <div class="img border-white border-10"><img src="images/400x400.jpg"
+                                                                                 class="radius-full" alt="image"></div>
+                                    <div class="info">
+                                        <p class="heading-content tiny bold-600 margin-0">It all started in 1958 (Video 2 Page)</p>
+                                        <hr class="margin-tb-20">
+                                        <h3 class="heading-content-sub tiny margin-0">Beginning of Internet is a revolution which
+                                            made the network how it is now</h3>
+
+                                        <a href="./page2BrowserWars.html" class="button color-button-default radius-10 button-medium solid">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM -->
+                        <div class="item">
+                            <div class="inneritem">
+                                <div class="testimonial-box testimonial-box-5 padding-30 radius-10 info-obj img-t center gap-30 large">
+                                    <div class="img border-white border-10"><img src="images/400x400.jpg"
+                                                                                 class="radius-full" alt="image"></div>
+                                    <div class="info">
+                                        <p class="heading-content tiny bold-600 margin-0">It all started in 1958 (Video 3 Page)</p>
+                                        <hr class="margin-tb-20">
+                                        <h3 class="heading-content-sub tiny margin-0">Beginning of Internet is a revolution which
+                                            made the network how it is now</h3>
+
+                                        <a href="./page3Dotcombubble.html" class="button color-button-default radius-10 button-medium solid">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM -->
+                        <div class="item">
+                            <div class="inneritem">
+                                <div class="testimonial-box testimonial-box-5 padding-30 radius-10 info-obj img-t center gap-30 large">
+                                    <div class="img border-white border-10"><img src="images/400x400.jpg"
+                                                                                 class="radius-full" alt="image"></div>
+                                    <div class="info">
+                                        <p class="heading-content tiny bold-600 margin-0">It all started in 1958 (Video 4 Page)</p>
+                                        <hr class="margin-tb-20">
+                                        <h3 class="heading-content-sub tiny margin-0">Beginning of Internet is a revolution which
+                                            made the network how it is now</h3>
+
+                                        <a href="./page4.html" class="button color-button-default radius-10 button-medium solid">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM -->
+                        <div class="item">
+                            <div class="inneritem">
+                                <div class="testimonial-box testimonial-box-5 padding-30 radius-10 info-obj img-t center gap-30 large">
+                                    <div class="img border-white border-10"><img src="images/400x400.jpg"
+                                                                                 class="radius-full" alt="image"></div>
+                                    <div class="info">
+                                        <p class="heading-content tiny bold-600 margin-0">It all started in 1958 (Video 5 Page)</p>
+                                        <hr class="margin-tb-20">
+                                        <h3 class="heading-content-sub tiny margin-0">Beginning of Internet is a revolution which
+                                            made the network how it is now</h3>
+
+                                        <a href="./page5InternetPeople.html" class="button color-button-default radius-10 button-medium solid">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="align-center width-50 margin-auto margin-t-30" data-ckav-smd="width-100">
+                    <h3 class="heading-content small bold-600">Customer satisfaction is important</h3>
+                    <p class="heading-content-sub mini bold-400 margin-b-0 margin-auto" data-ckav-smd="width-100">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Quam dicta necessitatibus ratione itaque non
+                        animi vel.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ************** END : TESTIMONIALS SECTION **************  -->
+
+    <!--
+    ************************************************************
+    * CONTACT SECTION
+    *************************************************************
+    -->
+    <div id="contact" class="popup-section contact-section flex-cc">
+        <div class="inner-wrapper" data-ckav-smd="align-center">
+
+            <!-- CLOSE BUTTON -->
+            <div class="popup-close button button-icon color-button-dark solid color-hov-button-dark">
+                <i class="pe-7s-close"></i>
+            </div>
+
+            <!-- POPUP HEADER -->
+            <div class="header-area typo-light">
+                <h2 class="heading-section medium bold-600 margin-b-0">Contact</h2>
+            </div>
+
+            <!-- POPUP CONTENT -->
+            <div class="content-area ">
+
+                <!--<div class="row gt60">
+                    <div class="col-lg-6" data-ckav-smd="margin-b-40">
+                        <div class="map-wrapper height-px-200 margin-b-40">
+                            <iframe class="width-100 height-100 border-none"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25173.549759506815!2d144.97705325499777!3d-37.79137058602538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642cb954b1ce9%3A0xf187674ba9830e78!2sState+Library+Victoria!5e0!3m2!1sen!2sin!4v1560509152021!5m2!1sen!2sin"
+                                    allowfullscreen></iframe>
+                        </div>
+
+                        <div class="info-obj margin-b-0 info-box-01 img-l gap-20 mini animated fadeInUp"
+                             data-ckav-smd="margin-b-30 align-left">
+                            <div class="img"><span class="iconwrp"><i class="pe-7s-mail"></i></span></div>
+                            <div class="info">
+                                <h3 class="heading-content tiny bold-600 margin-b-5">Email</h3>
+                                <p class="margin-b-0">c.kav.art@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <hr class="margin-tb-20">
+
+                        <div class="info-obj margin-b-0 info-box-01 img-l gap-20 mini animated fadeInUp"
+                             data-ckav-smd="margin-b-30 align-left">
+                            <div class="img"><span class="iconwrp"><i class="pe-7s-headphones"></i></span></div>
+                            <div class="info">
+                                <h3 class="heading-content tiny bold-600 margin-b-5">Phone</h3>
+                                <p class="margin-b-0">+1234-567-890</p>
+                            </div>
+                        </div>
+
+                        <hr class="margin-tb-20">
+
+                        <div class="info-obj margin-b-0 info-box-01 img-l gap-20 mini animated fadeInUp"
+                             data-ckav-smd="margin-b-30 align-left">
+                            <div class="img"><span class="iconwrp"><i class="pe-7s-map-2"></i></span></div>
+                            <div class="info">
+                                <h3 class="heading-content tiny bold-600 margin-b-5">Address</h3>
+                                <p class="margin-b-0">1orem ipsum eirmod dolor sit ametconsetetur sadipscing nonumy
+                                    ipsum eirmod</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="heading-content small margin-b-30" data-ckav-smd="medium">Drop us line</h3>
+                        <form action="form-data/formdata.php" class="form-widget form-control-op-02">
+                            <div class="field-wrp">
+                                <input type="hidden" name="to" value="c.kav.art@gmail.com">
+
+                                <div class="row gt10">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control radius-10" data-label="Name" required=""
+                                                   data-msg="Please enter name." type="text" name="name"
+                                                   placeholder="Enter your name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control radius-10" data-label="Email" required=""
+                                                   data-msg="Please enter email." type="email" name="email"
+                                                   placeholder="Enter your email">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control radius-10" required="" data-label="Phone"
+                                           data-msg="Please phone number." type="text" name="phone"
+                                           placeholder="Enter your phone number">
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control radius-10" data-label="Subject" type="text"
+                                           name="subject" placeholder="Enter subject">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control radius-10" data-label="Message" required=""
+                                              data-msg="Please enter your message." name="message"
+                                              placeholder="Add your message" cols="30" rows="6"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit"
+                                    class="button radius-10 button-3d solid color-button-default width-100 margin-0"><i
+                                    class="fa fa-envelope-o"></i> SUBMIT
+                            </button>
+                        </form>
+                    </div>
+                </div>-->
+                <div class="row gt60">
+                    <div class="col-lg-12" data-ckav-smd="margin-b-40">
+                        <div class="map-wrapper height-px-200 margin-b-40">
+                            <iframe class="width-100 height-100 border-none"
+                                    src="https://www.google.com/maps/embed/v1/place?q=new+jersey+institute+of+technology&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"  allowfullscreen></iframe>
+                        </div>
+
+                        <div class="info-obj margin-b-0 info-box-01 img-l gap-20 mini animated fadeInUp"
+                             data-ckav-smd="margin-b-30 align-left">
+                            <div class="img"><span class="iconwrp"><i class="pe-7s-mail"></i></span></div>
+                            <div class="info">
+                                <h3 class="heading-content tiny bold-600 margin-b-5">Email</h3>
+                                <p class="margin-b-0"><a href = "mailto:jn34@njit.edu" target="_blank">jn34@njit.edu</a></p>
+                                <p class="margin-b-0"><a href = "mailto:ssm29@njit.edu" target="_blank">ssm29@njit.edu</a></p>
+                            </div>
+                        </div>
+
+                      <!--  <div class="info-obj margin-b-0 info-box-01 img-l gap-20 mini animated fadeInUp"
+                             data-ckav-smd="margin-b-30 align-left">
+                            <div class="img"><span class="iconwrp"><i class="pe-7s-headphones"></i></span></div>
+                            <div class="info">
+                                <h3 class="heading-content tiny bold-600 margin-b-5">Phone</h3>
+                                <p class="margin-b-0">+1234-567-890</p>
+                            </div>
+                        </div>-->
+                        <hr class="margin-tb-20">
+
+                        <div class="info-obj margin-b-0 info-box-01 img-l gap-20 mini animated fadeInUp"
+                             data-ckav-smd="margin-b-30 align-left">
+                            <div class="img"><span class="iconwrp"><i class="pe-7s-map-2"></i></span></div>
+                            <div class="info">
+                                <h3 class="heading-content tiny bold-600 margin-b-5">Address</h3>
+                                <p class="margin-b-0">323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="margin-tb-20">
+                <div class="row">
+
+                    <div class="col-lg-5" data-ckav-smd="margin-b-30">
+                        <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+
+                            <!-- OVERLAY -->
+                            <p>
+                                <a target="_blank"href="https://www.linkedin.com/in/sheethal-mathew-4579a0a5/"><img src="https://img.shields.io/badge/Sheethal linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2" data-ckav-smd="margin-b-30">
+
+                    </div>
+
+                    <div class="col-lg-5" data-ckav-smd="margin-b-30">
+                        <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+                            <p>
+                                <a target="_blank"href="https://www.linkedin.com/in/jedidiahjohn/"><img src="https://img.shields.io/badge/Jedidiah linkedin-%231DA1F2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ************** END : CONTACT SECTION **************  -->
+
+
 </div>
 
+<!-- COMMON VENDOR SCRIPTS -->
+<script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="vendor/jquery/jquery-migrate-3.0.0.min.js"></script>
+<script src="vendor/popper/umd/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+<script src="vendor/sweetalert/sweetalert2.min.js"></script>
+<script src="vendor/jarallax/jarallax.min.js"></script>
+<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+<script src="vendor/swiper/js/swiper.min.js"></script>
+<script src="vendor/jQuery-viewport-checker/jquery.viewportchecker.min.js"></script>
+<script src="vendor/enquire/enquire.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="vendor/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+<script src="vendor/isotope/packery-mode.pkgd.min.js"></script>
 
-<!-- Image of location/map -->
-<img src="map.jpg" class="img-responsive" style="width:100%">
+<!-- PAGE SPECIFIC VENDOR SCRIPTS -->
 
-<!-- Footer -->
-<footer class="text-center">
-    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a><br><br>
-    <p>How Internet Works, found from various sources on the internet <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools"></a></p>
-</footer>
+<!-- TEMPLATE COMMON SCRIPTS -->
+<script src="js/page-main.js"></script>
 
-<script>
-    $(document).ready(function(){
-        // Initialize Tooltip
-        $('[data-toggle="tooltip"]').tooltip();
-
-        // Add smooth scrolling to all links in navbar + footer link
-        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-
-                // Prevent default anchor click behavior
-                event.preventDefault();
-
-                // Store hash
-                var hash = this.hash;
-
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 900, function(){
-
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            } // End if
-        });
-    })
-</script>
 
 </body>
 </html>
